@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form mult-step</title>
+</head>
+<body>
+    <h1>Form mult-step</h1>
+    <section>
+        <div class="container">
+            <form>
+                <div class="step step-1 active">
+                    <h5>Passo 1</h5>
+                    <div class="form-group">
+                        <label for="firstName">Campo 1</label>
+                        <input type="text" id="campo1" placeholder="campo1" name="campo1">
+                    </div>
+                    <div class="form-group">
+                        <label for="campo2">Campo 2</label>
+                        <input type="text" id="campo2" placeholder="campo2" name="campo2">
+                    </div>
+                    <button type="button" class="next-btn">Proximo</button>
+                </div>
+                <div class="step step-2">
+                    <h5>Passo 2</h5>
+                    <div class="form-group">
+                        <label for="campo3">Campo 3</label>
+                        <input type="text" id="campo3" placeholder="campo3" name="campo3">
+                    </div>
+                    <div class="form-group">
+                        <label for="campo2">Campo 4</label>
+                        <input type="text" id="campo4" placeholder="campo4" name="campo4">
+                    </div>
+                    <button type="button" class="previous-btn">Anterior</button>
+                    <button type="button" class="next-btn">Proximo</button>
+                </div>
+                <div class="step step-3">
+                    <h5>Passo 3</h5>
+                    <div class="form-group">
+                        <label for="campo5">Campo 5</label>
+                        <input type="text" id="campo5" placeholder="campo5" name="campo5">
+                    </div>
+                    <div class="form-group">
+                        <label for="campo6">Campo 6</label>
+                        <input type="text" id="campo6" placeholder="campo6" name="campo6">
+                    </div>
+                    <button type="button" class="previous-btn">Anterior</button>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
